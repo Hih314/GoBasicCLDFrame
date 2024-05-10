@@ -1,0 +1,22 @@
+# 数据库配置
+DataBase:
+  UseDbType: # 当前使用的数据库类型，可以有多个
+    - "mysql"
+    - "postgresql"
+  Mysql:
+    # 用于读的数据库
+    Read:
+      Host: "127.0.0.1"
+      Port: 3306
+      User: root
+      PassWord: 123456
+      DataBase: "db_cldframe"
+      Charset: "utf8"
+    # 用于写的数据库
+    Write:
+      Host: "127.0.0.1"
+      Port: 3306
+      User: root
+      PassWord: 123456
+      DataBase: "db_cldframe"
+      Charset: "utf8"

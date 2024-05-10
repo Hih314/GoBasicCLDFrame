@@ -1,0 +1,8 @@
+# 运行端口
+AppHttpServer:
+  Web:
+    Port: ":8888" # 客户端网站端口
+  AllowCrossDomin: true # 是否允许跨域
+  
+# 调试模式 true，显示在控制台，false 打印在 Log 文件中
+DeBugInConsole: true
